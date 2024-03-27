@@ -998,13 +998,12 @@ footer.page-footer .footer .footer-middle .block.newsletter input#footer_newslet
     line-height: 1;
 }
 
-.checkout-index-index #checkout-review-load {}
+
 
 .checkout-index-index #checkout-review-load #checkout-review-table .osc-product-image {
     display: none;
 }
 
-.checkout-index-index .onestepcheckout-discount {}
 
 .checkout-index-index .onestepcheckout-discount #discount-form .input-box {
     width: 66% !important;
@@ -1232,9 +1231,9 @@ footer.modal-footer button.action-primary {
         max-width: 50%;
         flex: auto;
     }
-    .panel.header ul.header.links li.email-contact a:hover {
+    /* .panel.header ul.header.links li.email-contact a:hover {
         /*color: #6e6e6e !important;*/
-    }
+    /* } */ 
     .panel.header ul.header.links li.email-contact a span:hover {
         color: #fff;
     }
@@ -1684,9 +1683,7 @@ footer.modal-footer button.action-primary {
     flex-wrap: wrap;
     width: 100%;
 }
-.cms-index-index .slider-with-side .side-area .item2 {
-    /*margin: 4px 0 !important;*/
-}
+
 .cms-index-index  .slider-with-side .side-area .item3 {
     margin: 0 5px !important;
 }

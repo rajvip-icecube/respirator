@@ -77,11 +77,7 @@ export default function Search ()  {
               </div><div>
                      
                       <ul id='product'>
-                          {/* {data.products.items.map((product) => (
-                              <li key={product.id}>
-                                 <Link href='/${pageName}?search=${searchTerm}'><h3>{product.name}</h3></Link> 
-                              </li>
-                          ))} */}
+                        
                       </ul>
                   </div></>
     )}
