@@ -209,7 +209,7 @@
   animation-name: fadeIn;
 }
 
-@-webkit-keyframes fadeInDown {
+/* @-webkit-keyframes fadeInDown {
   0% {
     opacity: 0;
     -webkit-transform: translateY(-20px);
@@ -221,7 +221,7 @@
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
-}
+} */
 
 @-webkit-keyframes fadeInLeft {
   0% {
