@@ -1,6 +1,5 @@
 'use client'
 import React, {useState} from "react";
-import TabsContent from "../TabsContent/page";
 import { useQuery } from '@apollo/client';
 import { GET_PRODUCTS } from "../../api/itemQuery/route";
 export default function ProductDetail({ product, imageUrl, goToPreviousProduct, goToNextProduct,category_id }) {
@@ -291,7 +290,7 @@ export default function ProductDetail({ product, imageUrl, goToPreviousProduct, 
                 </div>
               </div>
               <div className="clearer"></div>{" "}
-             <TabsContent />
+             
               <div
                 className="block related"
                 data-mage-init='{"upsellProducts":{}}'
