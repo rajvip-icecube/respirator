@@ -159,7 +159,7 @@ export default function Page() {
             &amp; a Valved FFP3&nbsp;Face Mask?
           </h3>
           <p>
-            FFP3's both valved &amp; non-valved face masks provide the same
+            FFP3s both valved &amp; non-valved face masks provide the same
             protection. The valve on the mask makes it more comfortable when
             wearing for a longer time. The air exhaled is unfiltered. The mask
             without valve filters both inhaled and exhaled air protection both

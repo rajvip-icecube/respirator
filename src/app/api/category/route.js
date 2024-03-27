@@ -49,7 +49,7 @@ export default function Category() {
           <div>{fullFaceMasksCategory.url_path}</div>
           <div dangerouslySetInnerHTML={{ __html: fullFaceMasksCategory.description }}></div>
         </div>
-      </div><Example categoryId={10} /></>
+      </div></>
     );
 }
 
