@@ -8,7 +8,7 @@ export default function RelatedProducts({ category_id }) {
           id: category_id,
         },
       });
-      const allProducts = data.products.items.slice(0, 5);
+      const allProducts = data.products.items.slice(0, 5) || [];
   return (
     <div
       className="block-content content"

@@ -24,7 +24,7 @@ export default function PageContent({ category, category_id, pageName }) {
             aria-labelledby="page-title-heading toolbar-amount"
           >
             <span className="base" data-ui-id="page-title-wrapper">
-              {category.name}
+            {category?.name || 'Category Name Not Available'}
             </span>
           </h1>
         </div>

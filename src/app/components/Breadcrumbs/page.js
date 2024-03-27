@@ -11,7 +11,7 @@ export default  function Breadcrumbs({ category, categoryName }){
         </Link>
       </li>
       <li className={`item category`}>
-        <Link href={`/${category.slug}`}>
+        <Link href={category?.slug || '/'}>
           <strong>{categoryName}</strong>
         </Link>
       </li>
