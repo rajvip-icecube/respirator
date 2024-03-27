@@ -77,7 +77,7 @@ export default function PageContent({ category, category_id, pageName }) {
               <div className="category-description">
                 <div
                   dangerouslySetInnerHTML={{
-                    __html: category.description,
+                    __html: category.description || '',
                   }}
                 ></div>
               </div>
