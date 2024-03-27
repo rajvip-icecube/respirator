@@ -4,8 +4,7 @@ import { useQuery, gql } from "@apollo/client";
 import Link from "next/link";
 import { GET_PRODUCTS } from "@/app/api/itemQuery/route";
 import Image from 'next/image'
-const STATIC_IMAGE_URL =
-  "https://newdev.respiratorshop.co.uk/media/wysiwyg/disposablemasks.jpg";
+
 export default function HomePageProducts({ category_id, pageName, sku }) {
   const [errorImage, setErrorImage] = useState(null);
 
@@ -18,22 +17,9 @@ export default function HomePageProducts({ category_id, pageName, sku }) {
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error: {error.message}</p>;
   const allProducts = data.products.items.slice(0, 5);
-  const replace_images = [
-    "https://newdev.respiratorshop.co.uk/media/catalog/product/cache/c88b91a063b750d224620f74911d4bde/8/7/8710e.jpg",
-  ];
+ 
 
-  const getImagePath = (item) => {
-    var consider_small_image = STATIC_IMAGE_URL;
-    if (item.small_image.url != undefined && item.small_image.url != "") {
-      if (!replace_images.includes(item.small_image.url)) {
-        consider_small_image = item.small_image.url;
-      }
-    }
-    console.log(item.sku + " " + consider_small_image);
-    console.log(item);
-    return consider_small_image;
-  };
-
+  
   return (
     <>
       <div className="products-grid products-grid grid">
