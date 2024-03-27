@@ -12,7 +12,6 @@ export default function HomePageProducts({ category_id, pageName,sku }) {
       id: category_id,
     },
   });
-  console.log("data ===>", data);
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error: {error.message}</p>;
   const allProducts = data.products.items.slice(0, 5);
