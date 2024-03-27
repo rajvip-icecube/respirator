@@ -21,7 +21,7 @@ export default function RelatedProducts({ category_id }) {
             style={{ display: "none" }}
           >
             {allProducts.map((item) => (
-            <div className="product-item-info related-available">
+            <div  key={index} className="product-item-info related-available">
               <a
                
                 className="product photo product-item-photo"
