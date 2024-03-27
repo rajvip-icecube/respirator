@@ -318,7 +318,7 @@ export default function ProductDetail({ product, imageUrl, goToPreviousProduct, 
                       >
                         {" "}
                         {products.map(product => (
-                        <div className="product-item-info related-available">
+                        <div  key={index} className="product-item-info related-available">
                           <a
                           
                             className="product photo product-item-photo"
