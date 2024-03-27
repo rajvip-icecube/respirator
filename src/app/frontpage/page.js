@@ -272,7 +272,7 @@ export default function Page() {
                         wood.
                       </p>
                       <p className="par">
-                        If you need any help or advice when ordering don't
+                        If you need any help or advice when ordering dont
                         hesitate to contact our friendly team, call us on:
                         <strong>
                           <a title="01435 510749" href="tel:01435510749">
@@ -289,7 +289,7 @@ export default function Page() {
                         First you should check the expiry date on the box and
                         read the instructions provided. Facial hair can prevent
                         a good seal between the respirator and face, so make
-                        sure you're clean shaven before fitting your disposable
+                        sure youre clean shaven before fitting your disposable
                         respirator. Remove all jewelry and make sure long hair
                         is tied back.
                       </p>
