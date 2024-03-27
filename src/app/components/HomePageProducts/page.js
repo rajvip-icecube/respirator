@@ -22,7 +22,7 @@ export default function HomePageProducts({ category_id, pageName,sku }) {
     <>
       <div className="products-grid products-grid grid">
         <ol className="product-items widget-product-grid">
-          {allProducts.map((item) => (
+          {allProducts.map((item, index) => (
             <li  key={index} className="product-item">
               <div className="product-item-info">
         

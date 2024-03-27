@@ -20,7 +20,7 @@ export default function RelatedProducts({ category_id }) {
             className="item product product-item"
             style={{ display: "none" }}
           >
-            {allProducts.map((item) => (
+            {allProducts.map((item,index) => (
             <div  key={index} className="product-item-info related-available">
               <a
                
