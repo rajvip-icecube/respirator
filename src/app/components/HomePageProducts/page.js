@@ -5,7 +5,7 @@ import Link from "next/link";
 import { GET_PRODUCTS } from "@/app/api/itemQuery/route";
 import Image from 'next/image'
 
-export default function HomePageProducts({ category_id, pageName }) {
+export default function HomePageProducts({ category_id, pageName,sku }) {
 
   const { loading, error, data } = useQuery(GET_PRODUCTS, {
     variables: {
@@ -24,7 +24,7 @@ export default function HomePageProducts({ category_id, pageName }) {
       <div className="products-grid products-grid grid">
         <ol className="product-items widget-product-grid">
           {allProducts.map((item) => (
-            <li className="product-item">
+            <li  key={index} className="product-item">
               <div className="product-item-info">
         
               <img  src={item.small_image.url}/>

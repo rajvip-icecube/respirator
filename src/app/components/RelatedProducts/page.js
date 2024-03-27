@@ -1,10 +1,9 @@
 'use client'
-import React, { useState } from "react";
+import React from "react";
 import { useQuery, gql } from "@apollo/client";
-import Link from "next/link";
 import { GET_PRODUCTS } from "@/app/api/itemQuery/route";
 export default function RelatedProducts({ category_id }) {
-    const { loading, error, data } = useQuery(GET_PRODUCTS, {
+    const { data } = useQuery(GET_PRODUCTS, {
         variables: {
           id: category_id,
         },

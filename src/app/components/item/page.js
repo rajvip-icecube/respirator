@@ -51,7 +51,7 @@ export default function Item({ category_id, pageName, sku,  priceRange, selected
           {data && data.products && (
             <ol className="products list items product-items ">
               {filteredProducts.map((item) => (
-                <li class="item product product-item ">
+                <li  key={index} class="item product product-item ">
                   <div class="product-item-info" data-container="product-grid">
                     <div class="product photo product-item-photo">
                       <a
