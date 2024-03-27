@@ -1,5 +1,5 @@
 'use client'
-import { GET_CATEGORY_DATA } from "../api/category/page";
+import { GET_CATEGORY_DATA } from "../api/category/route";
 import { useQuery } from "@apollo/client";
 import Breadcrumbs from "../components/Breadcrumbs/page";
 import PageContent from "../components/PageContent/page";

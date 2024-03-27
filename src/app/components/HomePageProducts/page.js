@@ -5,8 +5,7 @@ import Link from "next/link";
 import { GET_PRODUCTS } from "@/app/api/itemQuery/route";
 import Image from 'next/image'
 
-export default function HomePageProducts({ category_id, pageName, sku }) {
-  const [errorImage, setErrorImage] = useState(null);
+export default function HomePageProducts({ category_id, pageName }) {
 
   const { loading, error, data } = useQuery(GET_PRODUCTS, {
     variables: {

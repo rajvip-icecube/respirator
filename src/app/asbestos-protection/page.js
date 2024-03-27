@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState} from "react";
-import { GET_CATEGORY_DATA } from "../api/category/page";
+import { GET_CATEGORY_DATA } from "../api/category/route";
 import { useQuery } from "@apollo/client";
 import Item from "../components/item/page";
 import Link from "next/link";
