@@ -1,7 +1,4 @@
-/**
- * Copyright Â© Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
- */
+
  .abs-reset-list {
     margin: 0;
     padding: 0;
@@ -1857,30 +1854,17 @@
       margin-right: 0;
     }
   }
-  /**
-   * Copyright Â© Magento, Inc. All rights reserved.
-   * See COPYING.txt for license details.
-   */
-  /**
-   * Copyright Â© Magento, Inc. All rights reserved.
-   * See COPYING.txt for license details.
-   */
+
   .form-discount .g-recaptcha {
     margin-top: 50px !important;
   }
-  /**
-   * Copyright Â© Magento, Inc. All rights reserved.
-   * See COPYING.txt for license details.
-   */
+
   .login-container .g-recaptcha,
   .form-login .g-recaptcha,
   .form-edit-account .g-recaptcha {
     margin-bottom: 10px !important;
   }
-  /**
-   * Copyright Â© Magento, Inc. All rights reserved.
-   * See COPYING.txt for license details.
-   */
+
   .required-captcha.checkbox {
     position: absolute;
     display: block;
@@ -1890,24 +1874,15 @@
     width: 1px;
     height: 1px;
   }
-  /**
-   * Copyright Â© Magento, Inc. All rights reserved.
-   * See COPYING.txt for license details.
-   */
+
   .block.newsletter .field-recaptcha .field .control:before {
     content: none;
   }
-  /**
-   * Copyright Â© Magento, Inc. All rights reserved.
-   * See COPYING.txt for license details.
-   */
+
   .review-form .field-recaptcha {
     margin-bottom: 10px;
   }
-  /**
-   * Copyright Â© Magento, Inc. All rights reserved.
-   * See COPYING.txt for license details.
-   */
+
   .form.send.friend .g-recaptcha {
     margin-top: 40px;
   }

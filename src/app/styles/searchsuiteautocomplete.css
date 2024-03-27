@@ -1,14 +1,14 @@
 form.minisearch.loading .control input[type="text"] {
     box-shadow: none;
-    -webkit-animation-name: search-loading; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 3s; /* Chrome, Safari, Opera */
-    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+    -webkit-animation-name: search-loading;
+    -webkit-animation-duration: 3s; 
+    -webkit-animation-iteration-count: infinite; 
     animation-name: search-loading;
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
 
-/* Chrome, Safari, Opera */
+
 @-webkit-keyframes search-loading {
     0%   {box-shadow: none;}
     25%   {box-shadow: 0 0 3px 1px #68a8e0;}
@@ -17,7 +17,7 @@ form.minisearch.loading .control input[type="text"] {
     100%   {box-shadow: none;}
 }
 
-/* Standard syntax */
+
 @keyframes search-loading {
     0%   {box-shadow: none;}
     25%   {box-shadow: 0 0 3px 1px #68a8e0;}

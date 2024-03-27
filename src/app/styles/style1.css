@@ -551,10 +551,7 @@ textarea:not([disabled]):focus,
 select:not([disabled]):focus {
   box-shadow: 0 0 3px 1px #68a8e0;
 }
-/**
- * Copyright Â© /Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
- */
+
 .abs-reset-list,
 .bundle-options-container .block-bundle-summary .bundle.items,
 .search-terms,
@@ -2449,18 +2446,14 @@ fieldset[disabled] .form.send.friend .action.remove {
 .account .page-main .page-title-wrapper .order-date .label,
 [class^="sales-guest-"] .page-main .page-title-wrapper .order-date .label,
 .sales-guest-view .page-main .page-title-wrapper .order-date .label,
-/* ./Magento-rma-guest-returns .page-main .page-title-wrapper .order-date .label {
-  display: none;
-} */
+
 .abs-table-striped,
 .account .column.main .order-details-items .table-wrapper .data.table,
 [class^="sales-guest-"] .column.main .order-details-items .table-wrapper .data.table,
 .sales-guest-view .column.main .order-details-items .table-wrapper .data.table,
 .block-giftregistry-results .data.table,
 .block-wishlist-search-results .data.table,
-/* ./Magento-rma-guest-returns .column.main .order-details-items .table-wrapper .data.table {
-  border: none;
-} */
+
 .abs-table-striped > tbody > tr:nth-child(even) > td,
 .abs-table-striped > tbody > tr:nth-child(even) > th,
 .account .column.main .order-details-items .table-wrapper .data.table > tbody > tr:nth-child(even) > td,
@@ -2473,10 +2466,7 @@ fieldset[disabled] .form.send.friend .action.remove {
 .block-giftregistry-results .data.table > tbody > tr:nth-child(even) > th,
 .block-wishlist-search-results .data.table > tbody > tr:nth-child(even) > td,
 .block-wishlist-search-results .data.table > tbody > tr:nth-child(even) > th,
-/* ./Magento-rma-guest-returns .column.main .order-details-items .table-wrapper .data.table > tbody > tr:nth-child(even) > td,
-./Magento-rma-guest-returns .column.main .order-details-items .table-wrapper .data.table > tbody > tr:nth-child(even) > th {
-  background: #f6f6f6;
-} */
+
 .abs-table-striped > thead > tr > th,
 .abs-table-striped > tbody > tr > th,
 .abs-table-striped > tfoot > tr > th,
@@ -2513,14 +2503,7 @@ fieldset[disabled] .form.send.friend .action.remove {
 .block-wishlist-search-results .data.table > thead > tr > td,
 .block-wishlist-search-results .data.table > tbody > tr > td,
 .block-wishlist-search-results .data.table > tfoot > tr > td,
-/* ./Magento-rma-guest-returns .column.main .order-details-items .table-wrapper .data.table > thead > tr > th,
-./Magento-rma-guest-returns .column.main .order-details-items .table-wrapper .data.table > tbody > tr > th,
-./Magento-rma-guest-returns .column.main .order-details-items .table-wrapper .data.table > tfoot > tr > th,
-./Magento-rma-guest-returns .column.main .order-details-items .table-wrapper .data.table > thead > tr > td,
-./Magento-rma-guest-returns .column.main .order-details-items .table-wrapper .data.table > tbody > tr > td,
-./Magento-rma-guest-returns .column.main .order-details-items .table-wrapper .data.table > tfoot > tr > td {
-  border: none; */
-/* } */
+
 .abs-table-striped > thead > tr > th,
 .abs-table-striped > thead > tr > td,
 .account .column.main .order-details-items .table-wrapper .data.table > thead > tr > th,
@@ -2533,10 +2516,7 @@ fieldset[disabled] .form.send.friend .action.remove {
 .block-giftregistry-results .data.table > thead > tr > td,
 .block-wishlist-search-results .data.table > thead > tr > th,
 .block-wishlist-search-results .data.table > thead > tr > td,
-/* ./Magento-rma-guest-returns .column.main .order-details-items .table-wrapper .data.table > thead > tr > th, */
-/* ./Magento-rma-guest-returns .column.main .order-details-items .table-wrapper .data.table > thead > tr > td { */
-  /* border-bottom: 1px solid #e7e7e7; */
-/* } */
+
 .abs-block-items-counter,
 .block-wishlist .counter,
 .block-compare .counter {
@@ -2841,29 +2821,25 @@ fieldset[disabled] .form.send.friend .action.remove {
 }
 @font-face {
   font-family: 'Open Sans';
-  /* src: url('/fonts/opensans/light/opensans-300.woff2') format('woff2'), url('/fonts/opensans/light/opensans-300.woff') format('woff'); */
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Open Sans';
-  /* src: url('/fonts/opensans/regular/opensans-400.woff2') format('woff2'), url('/fonts/opensans/regular/opensans-400.woff') format('woff'); */
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Open Sans';
-  /* src: url('/fonts/opensans/semibold/opensans-600.woff2') format('woff2'), url('/fonts/opensans/semibold/opensans-600.woff') format('woff'); */
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Open Sans';
-  /* src: url('/fonts/opensans/bold/opensans-700.woff2') format('woff2'), url('/fonts/opensans/bold/opensans-700.woff') format('woff'); */
-  font-weight: 700;
+ font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
@@ -4427,7 +4403,6 @@ fieldset[disabled] .hasDatepicker + .ui-datepicker-trigger {
 }
 @font-face {
   font-family: 'porto-icons';
-  /* src: url('/icon-fonts/font/porto-icons.woff2') format('woff2'), url('/icon-fonts/font/porto-icons.woff') format('woff'); */
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -5399,10 +5374,7 @@ body._has-modal-custom .modal-custom-overlay {
   width: 100vw;
   z-index: 899;
 }
-/**
- * Copyright Â© /Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
- */
+
 .lac-notification-sticky {
   position: relative;
   z-index: 999;
@@ -5432,7 +5404,7 @@ body._has-modal-custom .modal-custom-overlay {
   font-size: 14px;
 }
 .lac-notification-sticky .lac-notification .lac-notification-links .lac-notification-close-link:after {
-  /* background: url('/Magento_LoginAsCustomerFrontendUi/images/close.svg'); */
+
   content: ' ';
   display: inline-block;
   height: 12px;
@@ -5444,8 +5416,6 @@ body._has-modal-custom .modal-custom-overlay {
   font-family: 'pagebuilder-font';
   font-style: normal;
   font-weight: normal;
-  /* src: url('/Magento_PageBuilder/fonts/pagebuilder-icons/pagebuilder-icons.eot'); */
-  /* src: url('/Magento_PageBuilder/fonts/pagebuilder-icons/pagebuilder-icons.eot?#iefix') format('embedded-opentype'), url('/Magento_PageBuilder/fonts/pagebuilder-icons/pagebuilder-icons.woff') format('woff'), url('/Magento_PageBuilder/fonts/pagebuilder-icons/pagebuilder-icons.ttf') format('truetype'); */
 }
 .pagebuilder-icon,
 .slick-prev:before,
@@ -6445,26 +6415,17 @@ div[data-content-type='video'] video {
   margin: 0;
   padding: 0.5em 0.5em 1.5em;
 }
-/**
- * Copyright Â© /Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
- */
+
 .form-discount .g-recaptcha {
   margin-top: 50px !important;
 }
-/**
- * Copyright Â© /Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
- */
+
 .login-container .g-recaptcha,
 .form-login .g-recaptcha,
 .form-edit-account .g-recaptcha {
   margin-bottom: 10px !important;
 }
-/**
- * Copyright Â© /Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
- */
+
 .required-captcha.checkbox {
   position: absolute;
   display: block;
@@ -6474,30 +6435,19 @@ div[data-content-type='video'] video {
   width: 1px;
   height: 1px;
 }
-/**
- * Copyright Â© /Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
- */
+
 .block.newsletter .field-recaptcha .field .control:before {
   content: none;
 }
-/**
- * Copyright Â© /Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
- */
+
 .review-form .field-recaptcha {
   margin-bottom: 10px;
 }
-/**
- * Copyright Â© /Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
- */
+
 .form.send.friend .g-recaptcha {
   margin-top: 40px;
 }
-.amslick-slider-container {
-  /* phpcs:ignore /Magento2.Less.SemicolonSpacing.NotAtEnd */
-}
+
 .amslick-slider-container .slick-dots li button:focus,
 .amslick-slider-container .slick-dots li button:hover,
 .amslick-slider-container .slick-list:focus {
@@ -7450,7 +7400,6 @@ div[data-content-type='video'] video {
   padding: 0.5em 0 0;
 }
 .fotorama-video-container:after {
-  /* background: url('/Magento_ProductVideo/img/gallery-sprite.png') bottom right; */
   bottom: 0;
   content: '';
   height: 100px;
@@ -7471,7 +7420,6 @@ div[data-content-type='video'] video {
   transform: scale(1.25);
 }
 .video-thumb-icon:after {
-  /* background: url('/Magento_ProductVideo/img/gallery-sprite.png') bottom left; */
   bottom: 0;
   content: '';
   height: 40px;
@@ -14950,22 +14898,15 @@ span.split {
   width: 1em;
   margin-right: .2em;
   text-align: center;
-  /* opacity: .8; */
-  /* For safety - reset parent styles, that can break glyph codes*/
   font-variant: normal;
   text-transform: none;
-  /* fix buttons height, for twitter bootstrap */
   line-height: 1em;
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed */
+
   margin-left: .2em;
-  /* you can be more comfortable with increased icons size */
-  /* font-size: 120%; */
-  /* Font smoothing. That was taken from TWBS */
+ 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* Uncomment for 3D effect */
-  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+ 
 }
 .panel {
   -webkit-box-shadow: none;
@@ -15295,7 +15236,7 @@ span.split {
 .social-icons > li > a.linkedin-link:hover {
   background-color: #4975b6;
 }
-/*** About US ***/
+
 h2.word-rotator-title {
   line-height: 30px;
   font-size: 20px;
@@ -16092,7 +16033,6 @@ fieldset[disabled] .sidebar .block-addbysku .action.remove {
   .modal-popup.modal-slide .modal-inner-wrap {
     margin: 0;
     max-height: 90vh;
-    /** iOS webkit fix height problem when added long content **/
   }
   .custom-slide {
     bottom: 0;

@@ -151,33 +151,3 @@ table.frequently-tab td {
 .feq-main .feq-row .feq-col .feq-table tr td:nth-child(3),.feq-main .feq-row .feq-col .feq-table tr td:nth-child(4),.feq-main .feq-row .feq-col .feq-table tr td:nth-child(5) {
     text-align: center;
 }
-/* @media screen and (max-width:991px) {
-.product_bottom_snippets .title {
-    font-size: 25px;
-    margin: 0 0 20px;
-}
-} */
-
-/* @media screen and (max-width:767px) {
-.product_bottom_snippets .title {
-    font-size: 20px;
-    margin: 0 0 10px;
-} */
-/* .product_bottom_snippets h3 {
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-    font-size: 15px;
-}
-} */
-/* @media screen and (min-width:768px){
-    .page-header.type1 .header.content .minicart-wrapper {
-        margin-top: -47px;
-    }
-    .page-header.type1 .header.content .custom-block {
-        margin-top: -39px;
-    }
-    .page-header.type1 .header.content .trustpilot-widget {
-        width: 100%;
-        margin-top: 10px;
-    }
-} */

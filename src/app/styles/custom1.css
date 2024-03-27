@@ -156,7 +156,7 @@
     font-family: 'Open Sans';
     src: url('/fonts/OpenSans-Regular.eot');
     src: url('/fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
-        /* url('/fonts/OpenSans-Regular.woff2') format('woff2'), */
+
         url('/fonts/OpenSans-Regular.woff') format('woff'),
         url('/fonts/OpenSans-Regular.ttf') format('truetype');
     font-weight: normal;
@@ -1030,13 +1030,7 @@ footer.page-footer .footer .footer-middle .block.newsletter input#footer_newslet
     margin-left: 0;
 }
 
-/*.checkout-index-index #shipping .step-title {
-    background: url(/images/billing_title.png) #000 center left no-repeat;
-}*/
 
-/*.checkout-index-index #opc-shipping_method .step-title {
-    background: url(/images/method_title.png) #000 center left no-repeat;
-}*/
 
 .checkout-index-index .payment-method #payment_method_step_header {
     background: url(/images/payment_title.png) #000 center left no-repeat;
@@ -1231,9 +1225,7 @@ footer.modal-footer button.action-primary {
         max-width: 50%;
         flex: auto;
     }
-    /* .panel.header ul.header.links li.email-contact a:hover {
-        /*color: #6e6e6e !important;*/
-    /* } */ 
+
     .panel.header ul.header.links li.email-contact a span:hover {
         color: #fff;
     }
@@ -1733,7 +1725,7 @@ footer.modal-footer button.action-primary {
 }
 @media (min-width: 768px) and (max-width: 991px){
 	.cms-index-index .slider-with-side .side-area .item1, .cms-index-index .slider-with-side .side-area .item2, .cms-index-index .slider-with-side .side-area .item3{
-		/*margin: 4px 0 !important;*/
+
 		padding: 0 !important;
 	}
 }

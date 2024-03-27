@@ -230,7 +230,7 @@
       width: 1px;
       text-decoration: none;
       display: inline-block;
-      /* float: right; */
+      float: right;
   }
   
   .widget.blog-search .control {
@@ -255,7 +255,7 @@
       display: inline-block;
       background-image: none;
       background: none;
-      /* -moz-box-sizing: content-box; */
+      -moz-box-sizing: content-box;
       border: 0;
       box-shadow: none;
       line-height: inherit;
@@ -279,7 +279,7 @@
       display: inline-block;
       font-weight: normal;
       overflow: hidden;
-      /* speak: none; */
+      speak: none;
       text-align: center;
   }
   

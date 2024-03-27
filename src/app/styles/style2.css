@@ -83,7 +83,7 @@
     display: inline-block;
     width: 66px;
     text-align: center;
-    /* float: left; */
+    float: left;
     margin-right: 2px;
 }
 

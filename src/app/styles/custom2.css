@@ -1,4 +1,4 @@
-/*global changes */
+
 body {
     font: 12px Arial, Helvetica, sans-serif;
     color: #555 !important;
@@ -35,9 +35,7 @@ body {
 .page-wrapper {
     background: #e9e9e9;
 }
-/*home page */
-/* Header changes */
-/* top menu */
+
 .sw-megamenu.navigation li > a > span {
     color: #fff;
     font-weight: 400;
@@ -365,7 +363,7 @@ footer.page-footer {
     }
 }
 
-/* submenu */
+
 .sw-megamenu .submenu ul.subchildmenu:after {
     border: solid 0.6px #323232;
     content: "";
@@ -515,12 +513,12 @@ li.email-contact {
     }
 }
 
-/* product view page */
+
 .catalog-product-view button#product-addtocart-button {
     margin-bottom: 0px !important;
 }
 
-/* login page */
+
 .customer-account-login .login-container {
     border-radius: 0px !important;
 }
@@ -587,37 +585,6 @@ button {
     margin-bottom: 15px;
 }
 
-/*
-.catalog-product-view .product-info-main .overview {
-    display: none;
-}
-
-.catalog-product-view .product-info-price {
-    display: block;
-    float: left;
-    padding-bottom: 20px;
-}
-.catalog-product-view .product-info-price .price-box {
-    display: block;
-    float: left;
-    margin: 0;
-}
-.catalog-product-view .product-info-price .product-info-stock-sku {
-    display: block;
-    float: right;
-}
-.catalog-product-view .product-info-price .overview_new {
-    float: left;
-    width: 100%;
-    border-top: 1px #ebebeb solid;
-    padding-top: 20px;
-    line-height: 1.5;
- }
-
-.catalog-product-view .block .related .action.select {
-    line-height: 1 !important;
-    height: auto !important ;
-}*/
 
 .breadcrumbs {
     margin-bottom: 0px;
@@ -1008,8 +975,7 @@ button {
     width: 80%;
 }
 
-/*checkot design */
-/*new work */
+
 .checkout-index-index .field._required.two-fields.last {
     width: 100%;
 }
@@ -1168,7 +1134,7 @@ button {
 
 
 
-/*Start 06-09-2022 css*/
+
 
 .page-header.type1 .header.content .amsearch-wrapper-block {
     width: 410px;
@@ -1427,4 +1393,3 @@ button {
     }
 
 }
-/*End 06-09-2022 css*/
