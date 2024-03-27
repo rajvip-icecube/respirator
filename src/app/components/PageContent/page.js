@@ -13,6 +13,7 @@ export default function PageContent({ category, category_id, pageName }) {
     console.log("Selected Brand:", brand);
     setSelectedBrand(brand);
   };
+  const categoryDescription = category ? category.description : 'Loading';
   return (
     <>
       <main id="maincontent" className="page-main">
@@ -75,11 +76,7 @@ export default function PageContent({ category, category_id, pageName }) {
               ></div>
 
               <div className="category-description">
-                <div
-                  dangerouslySetInnerHTML={{
-                    __html: category.description || '',
-                  }}
-                ></div>
+              <div dangerouslySetInnerHTML={{ __html: categoryDescription }}></div>
               </div>
               <Item category_id={category_id} pageName={pageName}   priceRange={priceRange}
           selectedBrand={selectedBrand}/>
