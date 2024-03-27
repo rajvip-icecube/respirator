@@ -1,3 +1,4 @@
+'use client'
 import React, { useState}  from "react";
 import PriceFilterButtons from "../PriceFilterButtons/page";
 import Item from "../item/page";
